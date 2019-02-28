@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <title>Lazy Load - Vanilla JS Project Three</title>
+        <meta name="description" content="Example project to practice variable, function, and scope concepts from the Vanilla JS Pocket Guides course">
+        <meta name="author" content="Robert Beatty">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="lazy-load.css">
+    </head>
+    <body>
+        <header>
+            <h1>Let's Be Lazy</h1>
+            <h2>Vanilla JS Pocket Guides Project Three</h2>
+            <h3>Author: Robert Beatty | Date: February 27, 2019</h3>    
+        </header>
+        <main>
+            <div id="image-container">
+                <figure class="lazy-load" data-image="beach.jpg"></figure>
+                <figure class="lazy-load" data-image="canoe.jpg"></figure>
+                <figure class="lazy-load" data-image="crab.jpg"></figure>
+                <figure class="lazy-load" data-image="doors.jpg"></figure>
+                <figure class="lazy-load" data-image="jellyfish.jpg"></figure>
+                <figure class="lazy-load" data-image="lighthouse.jpg"></figure>
+                <figure class="lazy-load" data-image="sail.jpg"></figure>
+                <figure class="lazy-load" data-image="sea-dog.jpg"></figure>
+                <figure class="lazy-load" data-image="whale.jpg"></figure>
+            </div>
+            <div id="info-container">
+                <h2 id="image-title"></h2>
+                <p id="image-caption"></p>
+            </div>
+        </main>
+        <footer>
+            <a href="https://github.com/rbeatty1" target="_blank" rel="noopener">Github</a>
+            <a href="https://linkedin.com/in/beattyre" target="_blank" rel="noopener">LinkedIn</a>
+        </footer>
+        <script type="text/javascript" src="lazy-load.js"></script>
+    </body>
+</html>

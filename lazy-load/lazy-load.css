@@ -1,0 +1,85 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    height: 99vh;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header{
+    text-align: center;
+}
+header>*{
+    margin: 3px auto;
+}
+header h1{
+    color: #FF312E;
+}
+
+header h2, header h3{
+    color: #CBA328;
+}
+
+main{
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main div{
+    width: 45%;
+    height: 85%;
+    margin: auto;
+}
+
+#image-container{
+    overflow: auto;
+}
+
+#info-container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center
+}
+#info-container h2{
+    color: #333;
+    margin: 0;
+    padding-bottom: 1%;
+    border-bottom: 2px dashed #FF312E
+}
+
+#info-container p{
+    color: #999;
+    margin: 1%;
+
+}
+figure{
+    height: 100%;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+    margin: .25rem 0;
+    box-shadow: .25rem .25rem 2px #606C38
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: #FF312E;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer a{
+    padding: 1rem;
+    color: #333138
+}
+footer a:visited{
+    color: #EAD637;
+}

@@ -1,0 +1,88 @@
+body{
+    font-size: 18px;
+    height: 99vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+header>*{
+    margin: 3px auto;
+}
+main{
+    margin: 5rem auto;
+    width: 80%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y: auto;
+}
+main ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    color: #653239;
+}
+header h2, header h3{
+    color: #af7a6d;
+}
+header h3{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+section{
+    margin: 1rem auto;
+    width: 100%;
+}
+.accordion-link{
+    background-color: #af7a6d;
+    color: white;
+    padding: 1rem;
+    border-radius: .25rem;
+    width: 50%;
+    font-weight: 700;
+    margin: 0 25%;
+}
+.accordion-link:hover{
+    color: #653239;
+}
+.accordion-content{
+    display: none;
+    width: 85%;
+    margin: .5rem auto;
+    background: whitesmoke;
+    color: #af7a6d;
+    padding: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(204, 199, 185, .25);
+}
+.accordion-content.active{
+    display: block;
+}
+.accordion-content p{
+    margin: 2%;
+    font-size: .9rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: #653239;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer a{
+    padding: 1rem;
+    color: #e2d4ba
+}
+footer a:visited{
+    color: #eaf9d9;
+}
